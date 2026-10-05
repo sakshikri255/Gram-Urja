@@ -12,9 +12,9 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-3.4-38B2AC?logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Google Search Console Ready](https://img.shields.io/badge/SEO-Google%20Console%20Indexed-059669?logo=google)](https://gram-urja.vercel.app/sitemap.xml)
+[![Google Search Console Ready](https://img.shields.io/badge/SEO-Google%20Console%20Indexed-059669?logo=google)](https://gram-urja-alpha.vercel.app/sitemap.xml)
 
-**🌐 Live Platform:** [https://gram-urja.vercel.app](https://gram-urja.vercel.app)
+**🌐 Live Platform:** [https://gram-urja-alpha.vercel.app](https://gram-urja-alpha.vercel.app)
 
 </div>
 
@@ -268,7 +268,7 @@ Located in [`public/robots.txt`](public/robots.txt), it allows all search engine
 ```txt
 User-agent: *
 Allow: /
-Sitemap: https://gram-urja.vercel.app/sitemap.xml
+Sitemap: https://gram-urja-alpha.vercel.app/sitemap.xml
 ```
 
 ### 3. Structured Data (JSON-LD)
@@ -278,8 +278,8 @@ Sitemap: https://gram-urja.vercel.app/sitemap.xml
 
 ### 4. How to Index on Google Search Console
 1. Visit [Google Search Console](https://search.google.com/search-console).
-2. Add your property: `https://gram-urja.vercel.app` (or your custom domain).
-3. Verify ownership via HTML tag (already prepared in `index.html`) or DNS record.
+2. Add your property using **URL prefix**: `https://gram-urja-alpha.vercel.app` (or your custom domain).
+3. Verify ownership via **HTML tag** (already embedded in `index.html`).
 4. Navigate to **Sitemaps** in the left sidebar.
 5. Enter `sitemap.xml` and click **Submit**.
 6. Google will automatically crawl and index all platform routes.

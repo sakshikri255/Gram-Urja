@@ -1,8 +1,8 @@
 # Robots.txt for GramUrja (GreenGrid AI)
-# Website: https://gram-urja.vercel.app
+# Website: https://gram-urja-alpha.vercel.app
 
 User-agent: *
 Allow: /
 
 # Direct search engine crawlers to the XML Sitemap
-Sitemap: https://gram-urja.vercel.app/sitemap.xml
+Sitemap: https://gram-urja-alpha.vercel.app/sitemap.xml

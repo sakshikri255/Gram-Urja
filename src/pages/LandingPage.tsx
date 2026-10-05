@@ -363,12 +363,12 @@ export default function LandingPage() {
           <nav className="flex items-center justify-between py-2 px-4 rounded-2xl bg-black/40 backdrop-blur-md border border-white/10 shadow-lg">
             <div className="flex items-center gap-3">
               <div className="w-10 h-10 rounded-xl overflow-hidden shadow-md border border-emerald-400/30 bg-emerald-950 flex items-center justify-center">
-                <img src="/gramurja_logo.jpg" alt="GramUrja Logo" className="w-full h-full object-cover" />
+                <img src="/gramurja_logo.jpg" alt="GramUrja GreenGrid AI Logo" className="w-full h-full object-cover" />
               </div>
               <div>
                 <span className="text-white font-extrabold text-lg tracking-tight">GramUrja</span>
                 <span className="hidden sm:inline-block ml-2 text-[11px] font-medium text-emerald-400 bg-emerald-950/80 px-2 py-0.5 rounded-full border border-emerald-500/20">
-                  {isHindi ? 'ग्रामीण ऊर्जा मंच' : 'Rural Clean Energy'}
+                  GreenGrid AI
                 </span>
               </div>
             </div>

@@ -104,15 +104,15 @@ export default function LoginPage() {
         <div className="text-center mb-8">
           <div className="inline-flex items-center gap-3.5 mb-2">
             <div className="w-14 h-14 rounded-2xl overflow-hidden shadow-xl shadow-emerald-950/80 border border-emerald-400/30 bg-emerald-950 flex items-center justify-center">
-              <img src="/gramurja_logo.jpg" alt="GramUrja Logo" className="w-full h-full object-cover" />
+              <img src="/gramurja_logo.jpg" alt="GramUrja GreenGrid AI Logo" className="w-full h-full object-cover" />
             </div>
             <div className="text-left">
-              <div className="text-3xl font-extrabold text-white tracking-tight">GramUrja</div>
+              <h1 className="text-3xl font-extrabold text-white tracking-tight">GramUrja <span className="text-emerald-400 text-lg font-bold">· GreenGrid AI</span></h1>
               <div className="text-emerald-400 text-xs font-medium tracking-widest uppercase">{t('brandTagline')}</div>
             </div>
           </div>
-          <p className="text-white/60 text-xs sm:text-sm max-w-sm mx-auto">
-            {isHindi ? 'स्वच्छ ऊर्जा · बायोमास एवं सौर · शून्य अपशिष्ट' : 'Clean Energy · Biomass & Solar · Zero Waste'}
+          <p className="text-white/60 text-xs sm:text-sm max-w-md mx-auto">
+            {isHindi ? 'ग्राम ऊर्जा (Gram Urja) — ग्रीनग्रिड AI एवं मनु AI (Manu AI) ग्रामीण स्वच्छ ऊर्जा मंच' : 'Gram Urja (GreenGrid AI) — Rural Solar, SATAT Biogas & Manu AI Intelligence'}
           </p>
         </div>
 
